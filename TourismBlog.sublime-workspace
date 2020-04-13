@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"document"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bo",
+				"border-spacing\tproperty"
+			],
+			[
+				"border",
+				"border-style\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"lis",
+				"list-style-type\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"fon",
+				"font\tproperty"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"in",
+				"initial\tfont-size"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"b",
+				"button\tTag"
+			],
+			[
+				"S",
+				"SelectThis2"
+			],
+			[
+				"Sele",
+				"SelectThis"
+			],
+			[
+				"fr",
+				"form\tTag"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"al",
+				"align\tAttr"
+			],
+			[
+				"m",
+				"meta\tTag"
+			],
+			[
+				"std",
+				"stdbool.h\tstandard header (since c99)"
+			],
+			[
+				"RA",
+				"RADIUS"
+			],
+			[
+				"Ra",
+				"RADIUS"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"nu",
+				"number_of_digits"
+			],
+			[
+				"n",
+				"number_of_digits"
+			],
+			[
+				"str",
+				"string.h\tstandard header"
+			],
+			[
+				"M",
+				"m"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"r",
+				"rno2"
+			],
+			[
+				"arr",
+				"arrival_time"
+			],
+			[
+				"ser",
+				"service_end"
+			],
+			[
+				"out_",
+				"out_table_p"
+			],
+			[
+				"se",
+				"service_start"
+			],
+			[
+				"ar",
+				"arrival_time"
+			],
+			[
+				"arri",
+				"arrival_period"
+			],
+			[
+				"ou",
+				"out_table_p"
+			],
+			[
+				"ro",
+				"rowcount"
+			],
+			[
+				"o",
+				"out_table_p"
+			],
+			[
+				"number",
+				"number_of_days"
+			],
+			[
+				"ios",
+				"stdio.h\tstandard header"
+			],
+			[
+				"prin",
+				"printf\tprintf …"
+			],
+			[
+				"pritn",
+				"printf\tprintf …"
+			],
+			[
+				"park",
+				"parking_slots"
+			],
+			[
+				"par",
+				"parking_slots"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"Roll",
+				"roll2"
+			],
+			[
+				"Ou",
+				"OutputFile"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"Inp",
+				"InputFile"
+			],
+			[
+				"I",
+				"InputFile"
+			],
+			[
+				"co",
+				"commonwords"
+			],
+			[
+				"sho",
+				"ShortForm"
+			],
+			[
+				"out",
+				"OutputFile"
+			],
+			[
+				"O",
+				"OutputFile"
+			],
+			[
+				"Sh",
+				"ShortForm"
+			],
+			[
+				"map",
+				"map\tstandard header"
+			],
+			[
+				"D",
+				"DecDictIndex"
+			],
+			[
+				"Dec",
+				"DecoderDict"
+			],
+			[
+				"MAX",
+				"MAXSIZE2"
+			],
+			[
+				"MA",
+				"MAXSIZE2"
+			],
+			[
+				"strin",
+				"string"
+			],
+			[
+				"de",
+				"experimental/deque\tlibrary fundamentals TS"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"max",
+				"max_size"
+			],
+			[
+				"B",
+				"BINARY_TO_TEXT"
+			],
+			[
+				"fil",
+				"file_format_flag"
+			],
+			[
+				"F",
+				"F_in"
+			],
+			[
+				"w",
+				"word_not_num"
+			],
+			[
+				"ct",
+				"ctype.h\tstandard header (deprecated)"
+			],
+			[
+				"f_",
+				"F_in"
+			],
+			[
+				"g",
+				"getCount"
+			],
+			[
+				"wo",
+				"WordCount"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"fi",
+				"F_in"
+			],
+			[
+				"pu",
+				"putcount"
+			],
+			[
+				"Wo",
+				"WordCount"
+			],
+			[
+				"vecto",
+				"vector\tstandard header"
+			],
+			[
+				"F_",
+				"F_in"
+			],
+			[
+				"vect",
+				"vector\tstandard header"
+			],
+			[
+				"pr",
+				"printed_string"
+			],
+			[
+				"print",
+				"printed_string"
+			],
+			[
+				"pri",
+				"print_column"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"T",
+				"TEXT_TO_BINARY"
+			],
+			[
+				"en",
+				"enum\tEnumeration"
+			],
+			[
+				"fath",
+				"Father"
+			],
+			[
+				"Ch",
+				"Child1"
+			],
+			[
+				"code",
+				"codesize"
+			],
+			[
+				"su",
+				"sumN"
+			],
+			[
+				"sum",
+				"sumP"
+			],
+			[
+				"cod",
+				"codesize"
+			],
+			[
+				"buff",
+				"buff_cnt"
+			],
+			[
+				"bu",
+				"buff_cnt"
+			],
+			[
+				"sy",
+				"sym"
+			],
+			[
+				"of",
+				"ofstream"
+			],
+			[
+				"rea",
+				"read"
+			],
+			[
+				"put",
+				"put_code"
+			],
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"sym",
+				"symbol"
+			],
+			[
+				"Tr",
+				"TreeNode"
+			],
+			[
+				"tem",
+				"temp_t2"
+			],
+			[
+				"rh",
+				"right"
+			],
+			[
+				"tmep",
+				"temp_t2"
+			],
+			[
+				"info",
+				"info"
+			],
+			[
+				"v",
+				"vector\tstandard header"
+			],
+			[
+				"exis",
+				"exist_sym"
+			],
+			[
+				"put_",
+				"put_prob"
+			],
+			[
+				"get_",
+				"get_prob"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Main.html",
+			"settings":
+			{
+				"buffer_size": 4744,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CSS/custom.css",
+			"settings":
+			{
+				"buffer_size": 3556,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Goa.html",
+			"settings":
+			{
+				"buffer_size": 4770,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 684.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Academics/Comp_minor/Sem8project-v2"
+	],
+	"file_history":
+	[
+		"/F/Academics/Comp_minor/Sem8project/about.html",
+		"/F/Academics/Comp_minor/Sem8project/my_form.html",
+		"/F/Academics/Comp_minor/Sem8project/Main.html",
+		"/G/Office.cpp",
+		"/G/mini_pro.cpp",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/CSS/testing.css",
+		"/G/Testing.c",
+		"/G/database.txt",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/frameset.html",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/testingform.html",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/testinghtml2.html",
+		"/F/Academics/Btech Pracs/ST/Assignment3.c",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/testinghtml.html",
+		"/F/Academics/Comp_minor/InternetTechnology-sem8/HTML/testinghtml.html",
+		"/F/Academics/Btech Pracs/ST/Assignment4.c",
+		"/F/Academics/Btech Pracs/ST/rng.c",
+		"/F/Academics/Btech Pracs/ST/MonteCarloAssgn.c",
+		"/C/Program Files/AnsysEM/admin/license.lic",
+		"/F/Academics/Btech Pracs/ST/Table1.csv",
+		"/G/crc_ad.cpp",
+		"/F/Academics/Btech Pracs/Ave/8hz-mp3/main.c",
+		"/F/Academics/Btech Pracs/Ave/8hz-mp3/layer3.c",
+		"/F/Academics/Btech Pracs/RISC/CircConvCode.c",
+		"/F/Academics/Btech Pracs/RISC/CircConvCode.txt",
+		"/C/Program Files/Sublime Text 3/sublime.py",
+		"/C/Program Files/Sublime Text 3/sublime_plugin.py",
+		"/C/Users/RAHUL/AppData/Local/WhatsApp/WhatsApp.exe",
+		"/G/temp5.cpp",
+		"/G/inventory.txt",
+		"/F/Academics/MiniProject/Web_Server/templates/home.html",
+		"/F/Academics/MiniProject/Web_Server/Webpage.py",
+		"/F/Installations/Feko/license/platform.dat",
+		"/F/Academics/MiniProject/Web_Server/template/home.html",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/111607052A5.cpp",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/111607052A6.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/CSV_file_reader.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/WordCount.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/CmdLineArgs.cpp",
+		"/F/RSC/Rope_climber/rope/rope/init.h",
+		"/F/RSC/Rope_climber/rope/rope/main.c",
+		"/F/RSC/Robocon 18 AUTO/Src/console.c",
+		"/F/RSC/Robocon 18 AUTO/Src/cartesian.c",
+		"/F/RSC/Robocon 18 AUTO/Src/calib.c",
+		"/F/RSC/Robocon 18 AUTO/Src/base_drive.c",
+		"/F/RSC/Robocon 18 AUTO/Src/comm.c",
+		"/F/RSC/Robocon 18 AUTO/Src/delay.c",
+		"/F/RSC/Robocon 18 AUTO/Src/dummy.c",
+		"/F/RSC/Robocon 18 AUTO/Src/eeprom.c",
+		"/F/RSC/Robocon 18 AUTO/Src/encoder.c",
+		"/F/RSC/Robocon 18 AUTO/Src/function.c",
+		"/F/RSC/Robocon 18 AUTO/Src/init.c",
+		"/F/RSC/Robocon 18 AUTO/Src/laser.c",
+		"/F/RSC/Robocon 18 AUTO/Src/lcd.c",
+		"/F/RSC/Robocon 18 AUTO/Src/main.c",
+		"/F/RSC/Robocon 18 AUTO/Src/motor.c",
+		"/F/RSC/Robocon 18 AUTO/Src/ppr.c",
+		"/F/RSC/Robocon 18 AUTO/Src/stm32f3xx_hal_msp.c",
+		"/F/RSC/Robocon 18 AUTO/Src/stm32f3xx_it.c",
+		"/F/RSC/Robocon 18 AUTO/Src/system_stm32f3xx.c",
+		"/F/RSC/Robocon 18 AUTO/Src/task.c",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/C2ImportGroupsSample.csv",
+		"/F/Academics/Comp_minor/OOP/Dhaigude/csv.cpp",
+		"/F/Academics/Comp_minor/OOP/Dhaigude/reportcard.csv",
+		"/F/Academics/Comp_minor/OOP/Minor_codes/Linked_Lists.cpp",
+		"/F/Academics/Comp_minor/OOP/Minor_codes/Stack&Queue.cpp",
+		"/F/Academics/Comp_minor/OOP/FileHandling3.cpp",
+		"/F/Academics/Comp_minor/OOP/FileHandling4.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment4/LZWdict.c",
+		"/F/Academics/Comp_minor/OOP/Multi-Threading/Multithreading.cpp",
+		"/H/lzw.c",
+		"/H/lzw.cpp",
+		"/C/Windows/System32/sublime.py",
+		"/C/Windows/System32/sublime_plugin.py",
+		"/F/Newtest.txt",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/Assignment6.cpp",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/count.txt",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/Assignment5.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment4/LZWenc.cpp",
+		"/C/Xilinx/14.6/ISE_DS/common/lib/nt64/libPort_Std.dll",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/input.txt",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/fullform.txt",
+		"/F/Academics/Comp_minor/OOP/Assignment5&6/UML.pptx",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment4/LempelZivWelsh.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/Huffman.cpp",
+		"/F/Academics/Comp_minor/OOP/StandardTemplateLibrary/STL_Practice.cpp",
+		"/F/Academics/Comp_minor/OOP/StandardTemplateLibrary/VectorPractice.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/Huffman_Dhiraj/huffman_encoding.c",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/Fano/Fano_Manolkar/Fano_AdityaManolkar/main.c",
+		"/F/Academics/Internships/CodeITSuisse/GOT_Battle_Of_Blackwater_v2_FINAL/GOT_Battle_Of_Blackwater_v2_FINAL/output.csv",
+		"/F/Academics/Internships/CodeITSuisse/GOT_Battle_Of_Blackwater.py",
+		"/F/Academics/Internships/CodeITSuisse/GOT_Battle_Of_Blackwater_v2_FINAL/GOT_Battle_Of_Blackwater_v2_FINAL/test.csv",
+		"/F/Academics/Internships/CodeITSuisse/GOT_Battle_Of_Blackwater_v2_FINAL/GOT_Battle_Of_Blackwater_v2_FINAL/sample_submission.csv",
+		"/F/Academics/Internships/CodeITSuisse/GOT_Battle_Of_Blackwater_v2_FINAL/GOT_Battle_Of_Blackwater_v2_FINAL/train.csv",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/Bin-Text_converter.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/Minor_file_handling_assignment_q1/text_to_bin.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/pout.in",
+		"/F/Academics/Comp_minor/OOP/FileHandling2.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/Minor_file_handling_assignment_q1/bin_to_text.cpp",
+		"/F/Academics/Comp_minor/OOP/Minor_codes/111607041 (1).cpp",
+		"/F/Academics/Comp_minor/OOP/Minor_codes/111607041_linkedlist.txt",
+		"/F/Academics/Comp_minor/OOP/Minor_codes/111607041.cpp",
+		"/F/Academics/Comp_minor/OOP/File_Handling_Assignments/File Handling Assignments.docx",
+		"/F/Academics/Comp_minor/OOP/VirtualFunctions.cpp",
+		"/F/Academics/Comp_minor/OOP/Templates.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/Fano/Fano.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/Decoder-Huff_Fano.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/LookUpTable.LUT",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2&3/HuffmanDecoder.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Decoder-Huff_Fano.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Fano.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/HuffmanDecoder.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/HuffmanCode.huff",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/LookUpTable.LUT",
+		"/F/Academics/Comp_minor/OOP/ClassesPrac2.cpp",
+		"/F/Academics/MOOC/Machine Learning/Assignment3.c",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Reference-Huffman-coding-master/Reference-Huffman-coding-master/cpp/HuffmanCompress.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Reference-Huffman-coding-master/Reference-Huffman-coding-master/cpp/Makefile",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Reference-Huffman-coding-master/Reference-Huffman-coding-master/cpp/AdaptiveHuffmanCompress.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman-master/Huffman.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman-master/Huffman.h",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/huffman_demo/bin/A1Q1enc",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/huffman_src/src/main.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman-master/Node.h",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman-master/main.cpp",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment2/Huffman-master/README",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment1/A1Q1.c",
+		"/F/Academics/TY-evenESE/ITCpracs/Assignment1/A1Q2.cpp"
+	],
+	"find":
+	{
+		"height": 70.4
+	},
+	"find_in_files":
+	{
+		"height": 172.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dots"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4694,
+								4694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CSS/custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Goa.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3942,
+								4752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 708.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 68.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "",
+	"project": "TourismBlog.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\RSC\\3WheelOmni\\24Oct_night\\24OctNight.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

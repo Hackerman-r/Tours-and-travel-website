@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nag Tibba</title>
+	<link rel="stylesheet" type="text/css" href="CSS/place.css">
+</head>
+<body>
+	<h2 style="text-align:center">The breathtaking views of Nag Tibba</h2>
+	<!-- Container for the image gallery -->
+	<div class="container">
+		<div class = "imgcontainer">
+	  <!-- Full-width images with number text -->
+	  <div class="mySlides"  style="display:block;">
+	    <div class="numbertext">1 / 5</div>
+	      <img src="Images/NagTibbaTrek/n1.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">2 / 5</div>
+	      <img src="Images/NagTibbaTrek/n2.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">3 / 5</div>
+	      <img src="Images/NagTibbaTrek/n3.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">4 / 5</div>
+	      <img src="Images/NagTibbaTrek/n4.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">5 / 5</div>
+	      <img src="Images/NagTibbaTrek/n5.jpg" style="width:100%">
+	  </div>
+
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	  <!-- Image text -->
+	  <div class="caption-container">
+	    <p id="caption"></p>
+	  </div>
+
+	  <!-- Thumbnail images -->
+	  <div class="row">
+	    <div class="column">
+	      <img class="demo cursor" src="Images/NagTibbaTrek/n1.jpg" style="width:100%" onclick="currentSlide(1)" alt="nagtibba1">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/NagTibbaTrek/n2.jpg" style="width:100%" onclick="currentSlide(2)" alt="nagtibba2">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/NagTibbaTrek/n3.jpg" style="width:100%" onclick="currentSlide(3)" alt="nagtibba3">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/NagTibbaTrek/n4.jpg" style="width:100%" onclick="currentSlide(4)" alt="nagtibba4">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/NagTibbaTrek/n5.jpg" style="width:100%" onclick="currentSlide(5)" alt="nagtibba5">
+	  </div>
+	</div>
+</div>
+	<h2 style="text-align:center">About Nag Tibba</h2>
+	<p> Nag Tibba means Serpents Peak, is the highest peak in lower Himalayas of Garhwal region near Mussoorie. It also gives a name to the Nag Tibba Range, which is one of the three ranges of Lesser Himalayas, the other ranges are Dhauladhar and Pir Panjal.</p>
+
+	<p>It is one of the best weekend treks that can be commenced by the beginners as well as experienced trekkers. A small temple is enshrined atop the hill, from where one can have a panoramic view of the entire Banderpunch ranges of the Great Indian Himalayas towards the Yamunotri side. </p>
+
+	<p>Nagtibba is a perfect place for camping during spring and summers and one of the most suitable trek for winters, when most of the treks are closed due to heavy snow. Due to its easy access it is one of most popular weekend treks in India.</p>
+
+	<div class="button_cont" align="center">
+	<a class="example_b" href="booking_form" target="_blank" rel="nofollow noopener">Book Tickets Now!</a>
+	</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
+

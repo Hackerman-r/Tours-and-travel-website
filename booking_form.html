@@ -1,0 +1,140 @@
+<html>
+
+<link rel="stylesheet" type="text/css" href="CSS/booking_page.css">
+
+<script language="Javascript">
+	function validate(){
+	
+		if(document.form.destination.selectedIndex==""){
+			alert ( "Please select Destination!");
+			return false;
+		}
+		if (document.form.start_location.selectedIndex==""){
+			alert ( "Please select Starting Location!");
+			return false;
+		}
+		return true;
+	}
+</script>
+
+<body>
+
+	<h1>BOOKING</h1>
+	
+	<section id="booking_inner" class="clearfix">
+	<div class="images">
+		<div class="row">
+		
+			<div class="column">
+				<p><a href="#"><img src="Images/img_1_mountain.jpg" alt="mountain" ></a></p>
+			</div>   
+			
+			<div class="column">
+				<p><a href="#"><img src="Images/img_2_bus.jpg" alt="bus" ></a></p>
+			</div>
+			
+			<div class="column">
+				<p><a href="#"><img src="Images/img_3_tree.jpg" alt="tree" ></a></p>
+			</div>  
+		
+			<div class="col">
+				<p>Escape and breathe the air of new places. Don't just listen to what others say,
+				 go and explore it yourself.</p><h3>Book Your Trip now!</h3>
+			</div>
+			
+		</div>
+	</div>	
+	</section>
+	
+	<div class="outer" align="center">
+		<div class="container">
+		
+			<form action="#" name="form" method="post" onSubmit="return validate()">
+				
+				<div class="booking_2">
+					<h4>Name*</h4>
+					<input type="text" name="Name" placeholder="" >
+				</div>
+
+				<div class="booking_2">
+					<h4>Email*</h4>
+					<input type="text" name="Email" placeholder="" >
+				</div>
+				
+				<div class="booking_2">
+					<h4>Mobile number*</h4>
+					<input type="text" name="MobileNo" placeholder="" >
+				</div>
+				
+				<div class="booking_2">
+					<h4>Age</h4>
+					<input type="number" name="Age" placeholder="" >
+				</div>
+				
+				<div class="booking_2">
+					<h4><label for="destination">Destination*</label></h4>
+					<select name="#" id="destination" class="form-control">
+					<option>--Select--</option>
+						<option value="">Arunachal Pradesh</option>
+						<option value="">Goa</option>
+						<option value="">Gujarat</option>
+						<option value="">Himachal Pradesh</option>
+						<option value="">Kerala</option>
+						<option value="">Maharashtra</option>
+						<option value="">Meghalaya</option>
+						<option value="">Rajasthan</option>
+						<option value="">Sikkim</option>
+						<option value="">Uttarakhnad</option>
+					</select>
+				</div>
+				
+				<div class="booking_2">
+					<h4>Starting Location*</h4>
+					<select class="span3" name="start_location" id="start_location">
+					<option>--Select--</option>
+						<option value="10">Arunachal Pradesh</option>
+						<option value="1">Goa</option>
+						<option value="2">Gujarat</option>
+						<option value="3">Himachal Pradesh</option>
+						<option value="4">Kerala</option>
+						<option value="5">Maharashtra</option>
+						<option value="6">Meghalaya</option>
+						<option value="7">Rajasthan</option>
+						<option value="8">Sikkim</option>
+						<option value="9">Uttarakhnad</option>
+					</select>
+				</div>
+			  
+				<div class="booking_2">
+					<h4><label for="modes">Mode of Travel</label></h4>
+					<select name="#" id="modes" class="form-control">
+					<option>--Select--</option>
+						<option value="">Flight</option>
+						<option value="">Train</option>
+						<option value="">Car</option>
+						<option value="">Cruise</option>
+					</select>
+				</div>
+				
+				<div class="booking_2">
+					<h4><label for="date-start">Date of Travel</label></h4>
+					<div class="clearfix center_feature_2_inner">
+					<input type="date" class="form-control" id="cal_1" placeholder="Mm/Dd/Yy" >
+					</div>
+				</div>
+				
+				<br>
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="submit" class="btn btn-primary btn-block" value="Submit">
+					</div>
+				</div>
+				
+			</form>	
+			
+		</div>
+	</div>
+	
+</body>
+
+</html>

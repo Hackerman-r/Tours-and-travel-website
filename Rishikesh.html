@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rishikesh</title>
+	<link rel="stylesheet" type="text/css" href="CSS/place.css">
+</head>
+<body>
+	<h2 style="text-align:center">The magnificent beauty of Rishikesh</h2>
+	<!-- Container for the image gallery -->
+	<div class="container">
+		<div class = "imgcontainer">
+	  <!-- Full-width images with number text -->
+	  <div class="mySlides"  style="display:block;">
+	    <div class="numbertext">1 / 5</div>
+	      <img src="Images/Rishikesh/r1.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">2 / 5</div>
+	      <img src="Images/Rishikesh/r2.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">3 / 5</div>
+	      <img src="Images/Rishikesh/r3.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">4 / 5</div>
+	      <img src="Images/Rishikesh/r4.jpg" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">5 / 5</div>
+	      <img src="Images/Rishikesh/r5.jpg" style="width:100%">
+	  </div>
+
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	  <!-- Image text -->
+	  <div class="caption-container">
+	    <p id="caption"></p>
+	  </div>
+
+	  <!-- Thumbnail images -->
+	  <div class="row">
+	    <div class="column">
+	      <img class="demo cursor" src="Images/Rishikesh/r1.png" style="width:100%" onclick="currentSlide(1)" alt="rishikesh1">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/Rishikesh/r2.jpg" style="width:100%" onclick="currentSlide(2)" alt="rishikesh2">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/Rishikesh/r3.jpg" style="width:100%" onclick="currentSlide(3)" alt="rishikesh3">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/Rishikesh/r4.jpg" style="width:100%" onclick="currentSlide(4)" alt="rishikesh4">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/Rishikesh/r5.jpg" style="width:100%" onclick="currentSlide(5)" alt="rishikesh5">
+	  </div>
+	</div>
+</div>
+	<h2 style="text-align:center">About Rishikesh</h2>
+	<p> Ever since the Beatles visited the ashram of the Maharishi Mahesh Yogi in the late '60s, Rishikesh has been a magnet for spiritual seekers. Today it styles itself as the ‘Yoga Capital of the World’, with masses of ashrams and all kinds of yoga and meditation classes. The action is mostly north of the main town, where the exquisite setting on the fast-flowing Ganges River, surrounded by forested hills, is conducive to meditation and mind expansion. In the evening, an almost supernatural breeze blows down the valley, setting temple bells ringing as sadhus ('holy' men), pilgrims and tourists prepare for the nightly ganga aarti (river worship ceremony). You can learn to play the sitar or tabla; try Hasya yoga (laughter therapy), practise meditation or take a punt on crystal healing.</p>
+
+	<p>Rishikesh is not all spirituality and contorted limbs, it's also a popular white-water rafting centre, backpacker hang-out and Himalayan-trekking gateway. </p>
+
+	<p>Rishikesh has long been a spiritual centre. It is said that the sage Raibhya Rishi did severe penance here and as a reward, God appeared to him in the form of Hrishikesh, hence the name. Rishikesh has numerous ashrams, some of which are internationally recognized as centers of philosophical studies, yoga and meditation. An international yoga week is organized here every year by Uttarakhand Tourism between 2nd and 7th of February. For the adventurous, there are opportunities for white water rafting on the Ganga. The climate here is continental type but its location in the foot hills gives it a pleasant weather throughout the year. One can visit Rishikesh any time of the year.</p>
+	<div class="button_cont" align="center">
+	<a class="example_b" href="booking_form" target="_blank" rel="nofollow noopener">Book Tickets Now!</a>
+	</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
+
