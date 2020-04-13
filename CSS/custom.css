@@ -1,0 +1,250 @@
+.MenuBar{
+	display: flex;
+	width: 100%;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.MenuBarButton{
+	display: inline;
+	position: relative;
+	left: 20px;
+	/*margin-right: 5px;*/
+	/*margin-left: 5px;*/
+	padding: 10px;
+	font: 25px bold black serif ;
+}
+
+
+.MenuBar a:link{
+	color: black;
+	text-decoration: none;
+}
+
+.MenuBar a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+.MenuBar a:hover{
+	background-color: silver;
+}
+
+.MenuBar a:active{
+	color: red;
+	background-color: silver;	
+}
+
+.DropdownContainer{
+	display: inline;
+	position: relative;
+	left: 0px;
+}
+
+#Dropdown{
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100%;
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	font: 25px bold black serif ;
+	background-color: white;	
+}
+
+#Dropdown li{
+	border-top: solid 1px black;
+	padding: 10px;
+	margin: 0;
+}
+
+
+h1{
+	color: white;
+	font-family: serif;
+	text-align: center;
+	background-color: #82b74b;
+	/*margin-bottom: 5px;*/
+	font-size: 40px;
+	margin: 0;
+	padding: 5px;
+}
+
+body{
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ContactInfo{
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-style: italic;
+	  font-size: 25px;
+}
+
+.ContactInfo a:hover{
+	color: gray;
+	background-color: white;
+}
+
+footer{
+	/*background-color: darkgoldenrod;*/
+	background-color: #82b74b;
+	color: white;
+	width: 100%;
+	text-align:center;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+h2{
+	margin:0;
+}
+
+#PageFooter{
+	width: 100%;
+	/*text-align:center;*/
+	background-color: #405d27;
+	color: white;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+#PageFooter ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.TileTable{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 20px;
+
+}
+
+.TileTable th{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #82b74b;
+	padding: 2px;
+}
+
+.TileTable ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.TileTable a:link{
+	color: black;
+	text-decoration: none;
+}
+
+.TileTable a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+.TileTable a:hover{
+	color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  z-index: -1;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

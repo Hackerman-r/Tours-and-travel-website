@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{	
+	background-image: url("../Images/coniferous2.jpg");
+	opacity:0.9;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.images{
+  background:#f2f2f2;
+   padding:20px;
+   margin-bottom:50px;
+   border-radius:10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+h2, h3, h4, h5, h6,.h2, .h3, .h4, .h5, .h6, .booking_2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;	
+}
+
+.form-control,.span3{
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    line-height: 1.1;
+	color: inherit;
+	position:center;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 750;
+    line-height: 1.5;
+	color: white;
+}
+
+.container{
+  position:center-right;
+  vertical-align: middle;
+  top:200px;
+  left:30%;
+  right:30%;
+  display:block;
+  margin-bottom:80px;
+  width:700px;
+  height:1100;
+  background:#f2f2f2;
+  padding:20px;
+  border-radius:25px;
+  overflow:hidden;
+  z-index:1;
+}
+

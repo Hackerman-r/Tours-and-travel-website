@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("../Images/coniferous2.jpg");
+  	background-color: white;
+
+  	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+h1{
+	background-color: orange;
+  color: black;
+	opacity: 0.9;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  border-radius: 7px;
+  width: 16%;
+}
+
+.column {
+  float: left;
+  width: 16%;
+  margin-bottom: 1px;
+  margin-right: 47px;
+  margin-left: 47px;
+  padding: 1px;
+  font-size: 15px;
+  color: white;
+}
+
+h2{
+	background-color: white;
+  opacity: 0.6;
+	color: black;
+	width: 75%;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h3{
+	margin:0;
+}
+
+

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body{ 
+  background-image: url(../Images/coniferous2.jpg);
+  opacity:1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 750;
+    line-height: 1.5;
+	color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  
+  position: relative;
+}
+
+.imgcontainer{
+	position:center;
+  vertical-align: middle;
+  top:200px;
+  left:30%;
+  right:30%;
+  display:block;
+  margin-bottom:80px;
+  width:100%
+  height:950;
+  background:#f2f2f2;
+  padding:20px;
+  border-radius:25px;
+  overflow:hidden;
+  z-index:1;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.75;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #405d27;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
